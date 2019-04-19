@@ -2,28 +2,99 @@
 	/****************
 	关于
 	****************/
-	#pramary{
-		width:50%;
+	
+	
+	.pramary{
+		width:40%;
 		float:left;
+		margin: 2.5% 0 60px 2.5%;
 	}
-	#secondary{
+	.secondary{
 		width:40%;
 		float:right;
+		margin: 2.5% 0 60px 2.5%;
 	}
+	
+	.pramary .my-photo{
+		float: left;
+		margin: 2.5% 30px 80px 0;
+		width: 150px;
+	}
+	
+	.secondary2{
+		width:40%;
+		float:left;
+		margin: 2.5% 0 60px 2.5%;
+	}
+	
+	/****************
+	HEADDING
+	****************/
+	
+	
 	
 	/****************
 	首页
 	****************/
-	#gallery li{
-		width:28.3333%
+	
+	.search-icon{
+		float: right;
+		margin: 12px 0 0 0;
+		padding: 0 2.5% 0 0;
+		width: 32px;
+		height: 32px;
+	}
+
+	.my-logo{
+		float: left;
+		margin:12px 0 12px 2.5%;
+		padding:0;
+		width: 32px;
+		height: 32px;
+		border-radius: 100%;
+	}
+	.item{
+		margin: 0;
+		padding: 0;
+	}
+
+	.header-nav-clearfloat{
+		float: left;
+		margin: 0 0 0 4%;
+		padding:0;
+	}
+
+	.header-nav-clearfloat li{
+		display: inline-block;
+		margin: 0;
+		list-style: none;
+		font-size:0.75em;
+		font-weight: bold;
+	}
+
+	.header-nav-clearfloat li a{
+		display: block;
+		padding:0 20px;
+		list-style: none;
+		line-height: 56px;
+		text-decoration: none;
+	}
+	
+	.public-container-index .gallery li{
+		width:100%
 	}
 	
 	/****************
-	关于
+	联系
 	****************/
-	.my-logo{
-		float:left;
-		margin:0 5% 80px 0;
+	
+	
+	/****************
+	详情页-首页
+	****************/
+	.detail-index-line{
+		height: 1px;
+		margin:5% 2.5% 10%;
 	}
 }
 
