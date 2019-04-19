@@ -1,3 +1,14 @@
+@media screen and (min-width:360px){
+	.gallery-list li{
+		width: 45%;
+	}
+	
+	.detail-index-line2{
+		height: 1px;
+	}
+	
+}
+
 @media screen and (min-width:480px){
 	/****************
 	关于
@@ -36,6 +47,14 @@
 	/****************
 	首页
 	****************/
+	
+	.detail-index-line2{
+		height: 1px;
+	}
+	
+	.gallery-list li{
+		width: 28.3333%;
+	}
 	
 	.search-icon{
 		float: right;
@@ -98,6 +117,14 @@
 	}
 }
 
-@media screen and (min-width:660px){
+@media screen and (min-width:800px){
+	.gallery-list li{
+		width: 20%;
+		margin: 2.5%;
+	}
 	
+	.detail-index-line2{
+		height: 1px;
+	}
+
 }
