@@ -3,11 +3,15 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>刘亮丨关于</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" href="img/logo.ico.png" type="img/logo.ico.png">
+		<link rel="icon" href="img/logo.ico.png" type="img/logo.ico.png">
     	<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<script src="js/script.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	</head>
 
 	<body>
@@ -15,6 +19,11 @@
 			<a href="index.html">
 				<img src="img/logo.jpg" alt="我的logo" class="my-logo">
 			</a>
+			<div>
+				<form id="search-form">
+					<input type="text" value="搜索" class="search-input-text" id="search-input" onclick="showsearch2()"/><input type="submit" class="search-input-button" value=""/>
+				</form>
+			</div>
 			<ul class="header-nav-clearfloat">
 				<li class="item"><a href="index.html">首页</a></li>
 				<li class="item"><a href="about.html"  class="selected">关于</a></li>
@@ -22,12 +31,16 @@
 				<li class="item"><a href="article.html">文章</a></li>
 				<li class="item"><a href="more.html">更多</a></li>
 			</ul>
-			<a href="search.html">
-				<img src="img/search2.png" alt="搜索" class="search-icon"/>
-			</a>
 		</div>
-		
+		<div class="suggest" id="search-suggest2" style="display: none;">
+			<ul id="search-result2">
+				<li>手机端</li>
+				<li>手机端设计</li>
+				<li>手机端PC端设计</li>
+			</ul>
+		</div>
 		<div class="wrapper">
+			<div>
 			<section class="pramary">
 				<img src="img/my-photo.jpg" alt="我的照片" class="my-photo">
 			</section>
@@ -38,14 +51,26 @@
 				<p>出生：1993-05-26</p>
 				<p>学校：内蒙古大学（2012-2015）</p>
 			</section>
+			</div>
+			<div>
+				<img src="img/banner.12.jpg" alt="我的介绍">
+			</div>
 		</div>
 		
-		
 		<div class="puclic-footer">
-			<img src="img/phone.png" alt="手机号" class="social-icon"/>
-			<img src="img/mail.png" alt="邮箱" class="social-icon"/>
-			<img src="img/wechat.png" alt="微信" class="social-icon"/>
-			<img src="img/qq.png" alt="qq" class="social-icon"/>
+			<a href="tel:13451329629">
+				<img src="img/phone.png" alt="手机号" class="social-icon"/>
+			</a>
+			<a href="mail:1046588149@qq.com">
+				<img src="img/mail.png" alt="邮箱" class="social-icon"/>
+			</a>
+			<a href="img/wechat-code.jpg" ale="我的微信二维码">
+				<img src="img/wechat.png" alt="微信" class="social-icon"/>
+			</a>
+			<a href="img/qq.jpg" ale="我的qq二维码">
+				<img src="img/qq.png" alt="qq" class="social-icon"/>
+			</a>
+			<p><strong>APP-UI 丨 Web-UI 丨 HTML5/CSS/JS 丨 插画 丨 LOGO设计</strong></p>
 			<p>版权所有 © 2019 刘亮</p>
 		</div>
 	</body>

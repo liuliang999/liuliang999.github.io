@@ -32,34 +32,98 @@ p{
 	line-height: 2em;
 }
 
+
+
 /****************
 HEARDING
 ****************/
 
 
+
 .public-header{
-	text-align: center;
+	text-align: left;
 	float: left; 
 	margin:0;
 	padding:0;
 	width:100%;
 }
 
-
-.search-icon{
+form{
 	float: right;
-	margin: 12px 0 0 0;
-	padding: 0 6px 0 0;
+	border: 0;
+	margin: 12px 2.5% 12px 0;
+	background-color: #f5f5f5;
+	border-radius: 16px;
+}
+
+.search-input-text{
+	float: left;
+	outline: none;
+	border: 0;
+	margin: 0 20px;
+	padding: 0;
+	width: 150px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #f5f5f5;
+	border-radius: 16px;
+}
+
+
+.search-input-button{
+	float: right;
+	outline: none;
+	border: 0;
+	background-image: url(../img/search2.png);
+	margin: 6px 10px 6px 2px;
+	background-repeat: no-repeat;
+	background-color: #f5f5f5;
 	width: 20px;
 	height: 20px;
+	
+}
+
+.suggest{
+	background-color: #fff;
+	width: 95%;
+	margin: 0;
+	border-radius: 5px;
+	position: absolute;
+	top: 50px;
+	right: 2.5%;
+	box-shadow: 0 10px 30px 0 rgba(125, 125, 125, 0.1);
+}
+
+
+.suggest ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+	float: left;
+	border-radius: 5px;
+}
+
+.suggest ul li{
+	margin: 0;
+	padding:0 20px;
+	line-height: 44px;
+	font-size: 0.75em;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#search-input{
+	font-size: 0.8em;
+	color: #b3b3b3;
 }
 
 .my-logo{
 	float: left;
 	margin:12px 5% 12px 2.5%;
 	padding:0;
-	width: 20px;
-	height: 20px;
+	width: 32px;
+	height: 32px;
 	border-radius: 100%;
 }
 
@@ -76,7 +140,7 @@ HEARDING
 
 .header-nav-clearfloat li{
 	display: inline-block;
-	margin: 0 4px;
+	margin: 0;
 	list-style: none;
 	font-size:0.75em;
 	font-weight: bold;
@@ -84,10 +148,11 @@ HEARDING
 
 .header-nav-clearfloat li a{
 	display:block;
-	padding:0 9%;
+	padding:0 14px;
 	list-style: none;
 	line-height: 44px;
 	text-decoration: none;
+	color: #999;
 }
 
 
@@ -105,24 +170,42 @@ FOOTER
 ****************/
 
 .puclic-footer{
-	font-size:0.8em;
-	text-align:center;
+	font-size:1em;
+	text-align:left;
 	clear:both;
 	margin:0;
-	padding:60px 0;
+	padding:60px 2.5%;
 	color:#ccc;
 	background-color: #fff;
 }
 
 .social-icon{
-	width:40px;
-	height:40px;
-	margin:0 5px;
+	width:32px;
+	height:32px;
+	margin:30px 5px;
+}
+
+.puclic-footer p{
+	margin: 0 0 0 2.%;
+	padding: 0 0 0 5px;
+	line-height: 2em;
 }
 
 /****************
 首页
 ****************/
+
+#detail-index-i{
+	display: none;
+	position: relative;
+	top: 0;
+}
+
+#content-index{
+	position: absolute;
+	width: 100%;
+	
+}
 
 .index-banner img{
 	float: left;
@@ -150,6 +233,39 @@ h3{
 	margin: 0;
 	padding: 0 0 0 2.5%;
 	color: #333;
+}
+
+#detail-button1{
+	float: right;
+	margin: 0;
+	padding: 5px 2.5%;
+	border:0;
+	background-color: #fafafa;
+	font-size: 0.8em;
+	color: #999;
+	outline: none;
+}
+
+#detail-button2{
+	float: right;
+	margin: 0;
+	padding: 5px 2.5%;
+	border:0;
+	background-color: #fafafa;
+	font-size: 0.8em;
+	color: #999;
+	outline: none;
+}
+
+#detail-button3{
+	float: right;
+	margin: 0;
+	padding: 5px 2.5%;
+	border:0;
+	background-color: #fafafa;
+	font-size: 0.8em;
+	color: #999;
+	outline: none;
 }
 
 .gallery-head a{
@@ -188,7 +304,6 @@ h3{
 	border-radius: 5px;
 	background-color:#fff;
 	color:#ff6061;
-	box-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.1);
 }
 
 .gallery-list li a p{
@@ -248,6 +363,14 @@ h3{
 	width: 100%;
 }
 
+.secondary li a{
+	color: #999;
+}
+
+.contact-photo{
+	border-radius: 5px;
+}
+
 .contact-info{
 	list-style:none;
 	padding:0;
@@ -284,6 +407,92 @@ h3{
 详情页-首页
 ****************/
 
+#box-img{
+	float: left;
+	background-image: url(../img/banner.11.jpg);
+	background-repeat: no-repeat!important;
+	background-size:cover!important;
+	background-position:bottom;
+	background-attachment:fixed!important;
+	width: 100%;
+	height: 705px;
+	margin: 0;
+	padding:12px 0 0 0;
+	
+}
+
+#box-img-article{
+	float: left;
+	background-image: url(../img/banner.14.jpg);
+	background-repeat: no-repeat!important;
+	background-size:cover!important;
+	background-position:bottom;
+	background-attachment:fixed!important;
+	width: 100%;
+	height: 705px;
+	margin: 0;
+	padding:12px 0 0 0;
+	
+}
+
+.icon{
+	float: left;
+	background-color: #fff;
+	margin: 12px 2.5%;
+	padding: 0;
+	width: 44px;
+	height: 44px;
+	border-radius: 22px;
+}
+
+.icon img{
+	padding: 12px;
+}
+
+#icon-returm{
+	background-image: url(../img/返回.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin: 12px;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	border: 0;
+	background-color: #fff;
+	outline: none;
+	
+}
+
+#img-text{
+	float: left;
+	position: relative;
+	top: 300px;
+	left: 2.5%;
+	color: #fff;
+}
+
+/*.img-text{
+	text-shadow:1px 1px 2px #b3b3b3;
+}*/
+
+#return{
+	float: left;
+}
+
+#share{
+	float: right;
+}
+
+.img1{
+	float: left;
+	width: 48.75%;
+}
+
+.img2{
+	float: right;
+	width: 48.75%;
+}
+
 .gallery-head p{
 	margin: 2.5%;
 	padding: 0;
@@ -299,6 +508,11 @@ h3{
 
 
 
+/*************
+MORE
+*************/
+
+
 /****************
 COLORS
 ****************/
@@ -311,7 +525,7 @@ COLORS
 
 /*site body*/
 body{
-	background-color:#f5f5f5;
+	background-color:#fafafa;
 	color:#999;
 }
 
@@ -331,6 +545,10 @@ a{
 	color:#ff6061;
 }
 
+.secondary li a:hover{
+	color: #ff6061;
+}
+
 .gallery-head a:hover{
 	color: #ff6061;
 }
@@ -347,3 +565,19 @@ a{
 	box-shadow: 0 10px 30px 0 rgba(255, 96, 97, 0.1);
 }
 
+.suggest ul li:hover{
+	text-decoration: underline;
+	background-color: #f5f5f5;
+}
+
+#detail-button1:hover{
+	color: #ff6061;
+}
+
+#detail-button2:hover{
+	color: #ff6061;
+}
+
+#detail-button3:hover{
+	color: #ff6061;
+}

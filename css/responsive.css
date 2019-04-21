@@ -3,10 +3,14 @@
 		width: 45%;
 	}
 	
-	.detail-index-line2{
-		height: 1px;
+	form{
+		width: 80%;
 	}
 	
+	#img-text{
+	top: 200px;
+	left: -56px;
+	}
 }
 
 @media screen and (min-width:480px){
@@ -21,9 +25,9 @@
 		margin: 2.5% 0 60px 2.5%;
 	}
 	.secondary{
-		width:40%;
+		width:45%;
 		float:right;
-		margin: 2.5% 0 60px 2.5%;
+		margin: 2.5% 2.5% 60px 2.5%;
 	}
 	
 	.pramary .my-photo{
@@ -48,13 +52,16 @@
 	首页
 	****************/
 	
-	.detail-index-line2{
-		height: 1px;
-	}
+	
 	
 	.gallery-list li{
 		width: 28.3333%;
 	}
+	
+	form{
+		width: 85%;
+	}
+	
 	
 	.search-icon{
 		float: right;
@@ -79,7 +86,7 @@
 
 	.header-nav-clearfloat{
 		float: left;
-		margin: 0 0 0 4%;
+		margin: 0;
 		padding:0;
 	}
 
@@ -111,9 +118,38 @@
 	/****************
 	详情页-首页
 	****************/
-	.detail-index-line{
+	/*.detail-index-line{
 		height: 1px;
 		margin:5% 2.5% 10%;
+	}*/
+	
+	#img-text{
+	top: 300px;
+	left: -64px;
+	}
+}
+
+@media screen and (min-width:668px){
+	.gallery-list li{
+		width: 20%;
+		margin: 2.5%;
+	}
+	
+	form{
+		width: 222px;
+	}
+	
+	.suggest{
+		width: 222px;
+	}
+	
+	.header-nav-clearfloat{
+		margin: 0 0 0 20px;
+	}
+	
+	#img-text{
+	top: 320px;
+	left: -64px;
 	}
 }
 
@@ -123,8 +159,11 @@
 		margin: 2.5%;
 	}
 	
-	.detail-index-line2{
-		height: 1px;
+	#img-text{
+	top: 360px;
+	left: -64px;
 	}
+	
+	
 
 }

@@ -3,17 +3,105 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>刘亮丨首页</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" href="img/logo.ico.png" type="img/logo.ico.png">
+		<link rel="icon" href="img/logo.ico.png" type="img/logo.ico.png">
     	<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<script src="js/script.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script>
+			/*$('#search-input').bind('keyup',function(){
+				$('#search-suggest').show().css({
+					top:$('#search-form').offset().top,
+					right:$('#search-form').offset().right,
+					position:'abslute'
+				});
+			})
+		</script>
 	</head>
 	<body>
+		
+		<!--此处为详情页全部内容-->
+		
+		<div id="detail-index-i">
+			<div id="box-img">
+					<div class="icon" id="return">
+						<input id="icon-returm" type="button" onClick="hidedetail()" value="">
+					</div>
+					<div class="icon" id="share">
+						<img src="img/分享.png" alt="分享">
+					</div>
+					<div id="img-text" class="img-text">
+						<h1>插画手绘类临摹</h1>
+						<p>共<i>25</i>&nbsp;张</p>
+						<p>所用软件:<i>PS、AI、PROCREATE</i></p>
+						<img src="img/down.png" alt="试试向上滑动" style="margin: 0 0 0 -10px">
+					</div>
+				</div>
+			<div class="wrapper">
+				<div class="public-container-index">
+					<div class="gallery-head">
+						<h3>日常练习——插画临摹（2018-2019）</h3>
+						<p>项目简介：<span>产品目标可以帮助设计师更好的理解业务，明确产品的操作流程。区别对待流程的主次，明确哪个流程最接近产品目标。把产品目标和操作流程做一个相关性的分析和总结。例如电商平台淘宝的产品商业目标是提升GMV。只有和商机相关的行动点才是层级最高的按钮。其他的按钮是次级行动点。而在筛选页面的场景中，用户的主要目标是通过筛选来选择出符合自己需求的内容，筛选是行为，但用户更关注的是列表的内容，且筛选并不是一个和产品目标强关联的行为，只是其中的一个流程，和整个页面的信息环境相比，筛选按钮相对较弱。而详情页是可以带来商机和转换的，符合产品的商业目标，所以底部按钮视觉层级较高，形成突出的视觉引导行动点，其他“查看全部信息”、收藏、客服等按钮层级相对较弱。</span></p>
+					</div>
+					<hr style="height: 0.5px;border-width: 0;background-color: #e5e5e5;margin:30% 2.5% 10%;padding:0" class="detail-index-line">
+					<div class="gallery-list2">
+						<div>
+						<div class="img1">
+						<img src="img/a1.jpg" alt="我的图片" style="margin: 0 0 5% 5%">
+						</div>
+						<div class="img2">
+						<img src="img/ine.jpg" alt="我的图片" style="margin: 0 5% 5% 0">
+						</div>
+						<img src="img/morning_press (2).jpg" alt="我的图片">
+						<img src="img/pop (2).jpg" alt="我的图片">
+						</div>
+						<div>
+						<img src="img/pop2 (2).jpg" alt="我的图片">
+						<img src="img/plant_grainy_illustration_alinashi (2).jpg" alt="我的图片">
+						</div>
+						<div>
+						<img src="img/morningwalk (2).jpg" alt="我的图片">
+						</div>
+					</div>			
+				</div>
+			</div>
+			<div class="puclic-footer">
+				<a href="tel:13451329629">
+					<img src="img/phone.png" alt="手机号" class="social-icon"/>
+				</a>
+				<a href="mail:1046588149@qq.com">
+					<img src="img/mail.png" alt="邮箱" class="social-icon"/>
+				</a>
+				<a href="img/wechat-code.jpg" ale="我的微信二维码">
+					<img src="img/wechat.png" alt="微信" class="social-icon"/>
+				</a>
+				<a href="img/qq.jpg" ale="我的qq二维码">
+					<img src="img/qq.png" alt="qq" class="social-icon"/>
+				</a>
+				<p><strong>APP-UI 丨 Web-UI 丨 HTML5/CSS/JS 丨 插画 丨 LOGO设计</strong></p>
+				<p>版权所有 © 2019 刘亮</p>
+			</div>
+			
+		<!--此处为首页全部内容-->
+			
+		</div>
+		
+		<!--此处为首页全部内容-->
+		
+		<div id="content-index" style="display: block">
 		<div class="public-header">
 			<a href="index.html">
 				<img src="img/logo.jpg" alt="我的logo" class="my-logo">
 			</a>
+			<div>
+				<form id="search-form">
+					<input type="text" value="搜索" class="search-input-text" id="search-input" onclick="showsearch()"/><input type="submit" class="search-input-button" value=""/>
+				</form>
+			</div>
 			<ul class="header-nav-clearfloat">
 				<li class="item"><a href="index.html" class="selected">首页</a></li>
 				<li class="item"><a href="about.html">关于</a></li>
@@ -21,9 +109,13 @@
 				<li class="item"><a href="article.html">文章</a></li>
 				<li class="item"><a href="more.html">更多</a></li>
 			</ul>
-			<a href="search.html">
-				<img src="img/search2.png" alt="搜索" class="search-icon"/>
-			</a>
+		</div>
+		<div class="suggest" id="search-suggest" style="display: none;">
+			<ul id="search-result">
+				<li>手机端</li>
+				<li>手机端设计</li>
+				<li>手机端PC端设计</li>
+			</ul>
 		</div>
 		<div class="index-banner">
 			<ul class="slide-container">
@@ -38,9 +130,11 @@
 			<div class="public-container-index">
 				<div class="gallery-head">
 					<h3>UI-APP设计作品</h3>
-					<a href="detail-index.html"><p>查看全部</p></a>
+					<input id="detail-button1" type="button" value="查看更多" onClick="showdetail()">
 				</div>
-				<hr style="height: 0.5px;border-width: 0;background-color: #e5e5e5;margin:20px 2.5% 0;padding:0" class="detail-index-line2">
+				<div>
+				<hr style="height: 1px;border-width: 0;background-color: #e5e5e5;margin:20px 2.5% 0;padding:0" class="detail-index-line2">
+				</div>
 				<ul class="gallery-list">
 						<li>
 							<a href="img/12-4.jpg">
@@ -83,7 +177,7 @@
 			<div class="public-container-index">
 				<div class="gallery-head">
 					<h3>插画临摹作品</h3>
-					<a href="detail-index.html"><p>查看全部</p></a>
+					<input id="detail-button2" type="button" value="查看更多" onClick="showdetail()">
 				</div>
 				<hr style="height: 0.5px;border-width: 0;background-color: #e5e5e5;margin:20px 2.5% 0;padding:0">
 				<ul class="gallery-list">
@@ -127,11 +221,21 @@
 			</div>
 		</div>
 		<div class="puclic-footer">
-			<img src="img/phone.png" alt="手机号" class="social-icon"/>
-			<img src="img/mail.png" alt="邮箱" class="social-icon"/>
-			<img src="img/wechat.png" alt="微信" class="social-icon"/>
-			<img src="img/qq.png" alt="qq" class="social-icon"/>
+			<a href="tel:13451329629">
+				<img src="img/phone.png" alt="手机号" class="social-icon"/>
+			</a>
+			<a href="mail:1046588149@qq.com">
+				<img src="img/mail.png" alt="邮箱" class="social-icon"/>
+			</a>
+			<a href="img/wechat-code.jpg" ale="我的微信二维码">
+				<img src="img/wechat.png" alt="微信" class="social-icon"/>
+			</a>
+			<a href="img/qq.jpg" ale="我的qq二维码">
+				<img src="img/qq.png" alt="qq" class="social-icon"/>
+			</a>
+			<p><strong>APP-UI 丨 Web-UI 丨 HTML5/CSS/JS 丨 插画 丨 LOGO设计</strong></p>
 			<p>版权所有 © 2019 刘亮</p>
+		</div>
 		</div>
 	</body>
 </html>
