@@ -28,12 +28,12 @@ function showsearch5(){
 首页-查看更多
 ****************/
 
-function showdetail(){ 
+function showdetail1(){ 
 	document.getElementById("detail-index-i").style.display="block";
 	document.getElementById("content-index").style.display="none";
 }
 
-function hidedetail(){ 
+function hidedetail1(){ 
 	document.getElementById("detail-index-i").style.display="none";
 	document.getElementById("content-index").style.display="block";
 }
