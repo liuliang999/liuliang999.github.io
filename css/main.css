@@ -91,7 +91,7 @@ form{
 	position: absolute;
 	top: 50px;
 	right: 2.5%;
-	box-shadow: 0 10px 30px 0 rgba(125, 125, 125, 0.1);
+	box-shadow: 0 10px 30px 0 rgba(41, 41,51, 0.1);
 }
 
 
@@ -152,7 +152,7 @@ form{
 	list-style: none;
 	line-height: 44px;
 	text-decoration: none;
-	color: #999;
+	color: #8a8a99;
 }
 
 
@@ -182,14 +182,21 @@ FOOTER
 .social-icon{
 	width:32px;
 	height:32px;
-	margin:30px 5px;
+	margin:0 5px;
+	padding: 0;
 }
 
 .puclic-footer p{
 	margin: 0 0 0 2.%;
 	padding: 0 0 0 5px;
 	line-height: 2em;
-	color: #333;
+	color: #292933;
+}
+
+.puclic-footer h3{
+	margin: 40px 0 10px 0;
+	padding: 0;
+	width: 100%;
 }
 
 /****************
@@ -215,7 +222,6 @@ FOOTER
 	margin:2% auto;
 	padding:0;
 	border-radius: 5px;
-	box-shadow: 0 50px 50px -30px rgba(0,0,0,0.2);
 }
 
 .slide-container{
@@ -236,7 +242,7 @@ h3{
 	float: left;
 	margin: 0;
 	padding: 0 0 0 2.5%;
-	color: #333;
+	color: #292933;
 }
 
 #detail-button1{
@@ -246,7 +252,7 @@ h3{
 	border:0;
 	background-color: #fff;
 	font-size: 0.8em;
-	color: #999;
+	color: #8a8a99;
 	outline: none;
 }
 
@@ -257,7 +263,7 @@ h3{
 	border:0;
 	background-color: #fff;
 	font-size: 0.8em;
-	color: #999;
+	color: #8a8a99;
 	outline: none;
 }
 
@@ -268,12 +274,12 @@ h3{
 	border:0;
 	background-color: #fff;
 	font-size: 0.8em;
-	color: #999;
+	color: #8a8a99;
 	outline: none;
 }
 
 .gallery-head a{
-	color: #999;
+	color: #8a8a99;
 }
 
 .gallery-head a p{
@@ -308,13 +314,14 @@ h3{
 	border-radius: 5px;
 	background-color:#fff;
 	color:#ff6061;
+	box-shadow: 0 1px 4px 0 rgba(41,41,51,0.05);
 }
 
 .gallery-list li a p{
 	magin:0;
 	padding:1% 5% 2.5% 5%;
 	font-size:0.8em;
-	color:#999;
+	color:#8a8a99;
 }
 
 
@@ -327,7 +334,7 @@ h3{
 	margin:5% 30px 30px 0;
 	max-width: 140px;
 	border-radius:100%;
-	box-shadow: 0 50px 50px -30px rgba(0,0,0,0.2);
+	box-shadow: 0 50px 50px -30px rgba(41,41,51,0.2);
 	border: 5px solid #fafafa;
 }
 
@@ -377,7 +384,7 @@ h3{
 }
 
 .secondary li a{
-	color: #999;
+	color: #8a8a99;
 }
 
 .contact-photo{
@@ -550,7 +557,7 @@ COLORS
 /*site body*/
 body{
 	background-color:#fff;
-	color:#999;
+	color:#8a8a99;
 }
 
 /*links*/
@@ -561,7 +568,7 @@ a{
 
 /*nav links*/
 .public-header a{
-	color:#999;
+	color:#8a8a99;
 }
 
 /*selected nav links*/
@@ -578,15 +585,11 @@ a{
 }
 
 .gallery-list li:hover{
-	box-shadow: 0 5px 20px 0 rgba(12, 12, 13, 0.08);
+	box-shadow: 0 5px 20px 0 rgba(41, 41, 51, 0.08);
 }
 
 .gallery-list p:hover{
 	color: #ff6061;
-}
-
-.slide-banner a:hover{
-	box-shadow: 0 10px 30px 0 rgba(255, 96, 97, 0.1);
 }
 
 .suggest ul li:hover{
