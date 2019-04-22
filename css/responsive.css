@@ -9,7 +9,7 @@
 	
 	#img-text{
 	top: 200px;
-	left: -56px;
+	left: -40px;
 	}
 }
 
@@ -20,26 +20,26 @@
 	
 	
 	.pramary{
-		width:40%;
+		width:45%;
 		float:left;
 		margin: 2.5% 0 60px 2.5%;
 	}
 	.secondary{
 		width:45%;
 		float:right;
-		margin: 2.5% 2.5% 60px 2.5%;
+		margin: 2.5% 2.5% 60px;
 	}
 	
 	.pramary .my-photo{
-		float: left;
-		margin: 2.5% 30px 80px 0;
+		float: right;
+		margin: 2.5%;
 		width: 150px;
 	}
 	
 	.secondary2{
-		width:40%;
+		width:45%;
 		float:left;
-		margin: 2.5% 0 60px 2.5%;
+		margin: 2.5% 2.5% 60px;
 	}
 	
 	/****************
@@ -125,7 +125,7 @@
 	
 	#img-text{
 	top: 300px;
-	left: -64px;
+	left: -40px;
 	}
 }
 
@@ -149,7 +149,7 @@
 	
 	#img-text{
 	top: 320px;
-	left: -64px;
+	left: -44px;
 	}
 }
 
@@ -161,7 +161,7 @@
 	
 	#img-text{
 	top: 360px;
-	left: -64px;
+	left: -56px;
 	}
 	
 	

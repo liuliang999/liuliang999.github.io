@@ -189,6 +189,7 @@ FOOTER
 	margin: 0 0 0 2.%;
 	padding: 0 0 0 5px;
 	line-height: 2em;
+	color: #333;
 }
 
 /****************
@@ -214,6 +215,7 @@ FOOTER
 	margin:2% auto;
 	padding:0;
 	border-radius: 5px;
+	box-shadow: 0 50px 50px -30px rgba(0,0,0,0.2);
 }
 
 .slide-container{
@@ -239,10 +241,10 @@ h3{
 
 #detail-button1{
 	float: right;
-	margin: 0;
-	padding: 5px 2.5%;
+	margin: 0 2.5%;
+	padding: 5px 0;
 	border:0;
-	background-color: #fafafa;
+	background-color: #fff;
 	font-size: 0.8em;
 	color: #999;
 	outline: none;
@@ -250,10 +252,10 @@ h3{
 
 #detail-button2{
 	float: right;
-	margin: 0;
-	padding: 5px 2.5%;
+	margin: 0 2.5%;
+	padding: 5px 0;
 	border:0;
-	background-color: #fafafa;
+	background-color: #fff;
 	font-size: 0.8em;
 	color: #999;
 	outline: none;
@@ -261,10 +263,10 @@ h3{
 
 #detail-button3{
 	float: right;
-	margin: 0;
-	padding: 5px 2.5%;
+	margin: 0 2.5%;
+	padding: 5px 10px;
 	border:0;
-	background-color: #fafafa;
+	background-color: #fff;
 	font-size: 0.8em;
 	color: #999;
 	outline: none;
@@ -325,6 +327,8 @@ h3{
 	margin:5% 30px 30px 0;
 	max-width: 140px;
 	border-radius:100%;
+	box-shadow: 0 50px 50px -30px rgba(0,0,0,0.2);
+	border: 5px solid #fafafa;
 }
 
 .wrapper p{
@@ -338,9 +342,16 @@ h3{
 }
 
 .secondary2{
-	margin: 0 2.5%;
+	margin: 0 2.5% 60px;
 	padding: 0;
-	
+}
+
+.my-introduc{
+	margin: 0 2.5%;
+}
+
+.my-introduc img{
+	border-radius: 5px;
 }
 
 /****************
@@ -362,7 +373,7 @@ h3{
 .secondary{
 	float: left;
 	margin: 2.5%;
-	width: 100%;
+	width: 95%;
 }
 
 .secondary li a{
@@ -440,25 +451,27 @@ h3{
 .icon{
 	float: left;
 	background-color: #fff;
-	margin: 12px 2.5%;
+	margin: 0 2.5%;
 	padding: 0;
-	width: 44px;
-	height: 44px;
-	border-radius: 22px;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
 }
 
 .icon img{
-	padding: 12px;
+	padding: 6px;
+	width: 20px;
+	height: 20px;
 }
 
 #icon-returm{
 	background-image: url(../img/返回.png);
 	background-repeat: no-repeat;
 	background-size:cover;
-	margin: 12px;
+	margin: 7px 8px 7px 6px;
 	padding: 0;
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
 	border: 0;
 	background-color: #fff;
 	outline: none;
@@ -473,26 +486,12 @@ h3{
 	color: #fff;
 }
 
-/*.img-text{
-	text-shadow:1px 1px 2px #b3b3b3;
-}*/
-
 #return{
 	float: left;
 }
 
 #share{
 	float: right;
-}
-
-.img1{
-	float: left;
-	width: 48.75%;
-}
-
-.img2{
-	float: right;
-	width: 48.75%;
 }
 
 .gallery-head p{
@@ -515,6 +514,29 @@ MORE
 *************/
 
 
+/*************
+文章
+*************/
+.article-img{
+	margin: 0 2.5%; 
+	border-radius: 5px!important;
+}
+
+.img1{
+	float: left;
+	width: 47.5%;
+}
+
+.img2{
+	float: right;
+	width: 47.5%;
+}
+
+.article-img img{ 
+	border-radius: 5px;
+}
+
+
 /****************
 COLORS
 ****************/
@@ -527,7 +549,7 @@ COLORS
 
 /*site body*/
 body{
-	background-color:#fafafa;
+	background-color:#fff;
 	color:#999;
 }
 
